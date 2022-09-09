@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto' sans-serif;
+    margin: 0;
+    background-color: rgb(14, 9, 9);
+    height: 60vh;
+}
+
+.container{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: #fff;
+}
+
+.first-p{
+    color: #fff;
+}
+
+hr{
+    border: 1px solid green;
+    width: 300px;
+}
+
+.third-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.btn-1{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    width: 700px;
+    height: 50px;
+}
+
+.btn-2{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    width: 700px;
+    height: 50px;
+    margin: 2em;
+}
+
+.btn-3{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    width: 700px;
+    height: 200px;
+    margin: 2em;
+}
+
+.btn-4{
+    margin: 2em;
+    border: 1px solid rgb(93, 163, 93) ;
+    color: white;
+    background-color: rgb(94, 198, 94);
+    height: 50px;
+    width: 250px;
+}
+
+.second-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#icons{
+    color: #fff;
+    justify-content: space-between;
+}
+
+.second-p{
+    color: #fff;
+}
+
+.second-hr{
+    border: 5px solid #fff;
+    width: 1500px;
+}
+
+.btn-buy{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.kite{
+    width: 100px;
+    height: 100px;
+    background: rgb(87, 219, 87);
+    transform: rotate(45deg);
+    margin: 0px auto;
+}
+
+.content{
+    width: inherit;
+    height: inherit;
+    transform: rotate(-45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

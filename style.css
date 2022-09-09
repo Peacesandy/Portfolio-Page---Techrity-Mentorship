@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    font-family: 'Roboto' sans-serif;
+    /*background: url('christian-buehner-DItYlc26zVI-unsplash.jpg' ) no-repeat center center/cover;*/
+}
+
+
+#main-nav{
+    font-family: 'Roboto' sans-serif;
+    font-weight: 500;
+    display: flex;
+    list-style-type: none;
+    text-align: end;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+    flex: 1;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #edf0f1;
+}
+a{
+    text-decoration: none;
+}
+
+.span{
+    color: lightgreen;
+}
+
+.btn-subscribe{
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+     padding: 15px;
+     color: white;
+}
+
+.vl{
+    border-left: 6px solid green;
+    height: 300px;
+    position: absolute;
+    left: 5%;
+    margin-top: -410px;
+    margin-right: -20px;
+}
+
+.container{
+    padding-left: 250px;
+    padding: 150px;
+    background: url('christian-buehner-DItYlc26zVI-unsplash.jpg' ) no-repeat center center/cover;
+}
+
+.second-container{
+    color: #fff;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .welcome{
+        line-height: 10px;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .text{
+        padding: 20px;
+        text-align: center;
+    }
+    
+    h3{
+        padding: px;
+        text-align: center;
+    }
+    
+    hr{
+        border: 2px solid rgb(17, 140, 17);
+    }
+    
+    .happy{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-style: italic;
+      font-weight: lighter;
+      font-stretch: extra-expanded;
+    }
+
+    

@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto' sans-serif;
+    margin: 0;
+    background-color: rgb(230, 229, 226);
+}
+
+.portfolio{
+    text-align: center;
+    justify-content: center;
+}
+
+.nav{
+    font-family: 'Roboto' sans-serif;
+    font-weight: 500;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+hr{
+    border: 1px solid green;
+    width: 300px;
+}
+
+span{
+    color: rgb(3, 79, 3);
+}
+
+.row{
+    float: left;
+    white-space: nowrap;
+}
+
+.img-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.img-div2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.img{
+    float: left;
+    width: 350px;
+    height: 400px;
+    padding: 2em;
+    margin: 2em;
+    margin-left: 100px;
+    white-space: nowrap;
+}
+
+.btn{
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+    padding: 20px;
+    border: 1px solid  ;
+    border-radius: px;
+    background-color: rgb(91, 195, 91);
+    color: white;
+    width: 200px;
+}
+
+.container{
+    background: url('brown moon.jpg') no-repeat center center/ cover;
+    color: #fff;
+    height: 520px;
+}
+
+.second-container{
+    text-align: right;
+    padding-right: 5%;
+    align-items: baseline;
+}
+
+.shortly{
+    flex-direction: column;
+    padding-top: 80px;
+    padding-left: 90px;
+}
+
+.lorem-1{
+    margin: 20px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.about-me{
+    padding-left: 70px;
+}
+
+
+.hr1{
+    margin-left: 85px;
+}
+
+.read-btn{
+    border: 2px solid rgb(51, 161, 51);
+    background-color: transparent;
+    color: white;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    margin-left: 120px;
+    box-shadow: 0 1px 1px rgb(9, 2, 2);
+}
+
+.nature-container{
+    text-align: right;
+    position: relative;
+    bottom: 270px;
+}
+
+.lorem-nature{
+    padding-right: 20px;
+}
+
+
+.btn-nature{
+    margin-right: 50px;
+    border:  1px solid rgb(64, 157, 64);
+    color: #fff;
+    background-color: rgb(94, 189, 94);
+}
+
+.h5-nature{
+    padding-right: 336px;
+}
+
